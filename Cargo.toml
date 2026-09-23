@@ -1,0 +1,16 @@
+[package]
+name = "accesslog"
+version = "0.1.0"
+edition = "2021"
+description = "A fast, headless CLI to analyze NGINX/Apache access logs"
+license = "MIT"
+authors = ["Animesh Raj <animesh080808@gmail.com>"]
+repository = "https://github.com/itsarraj/accesslog"
+readme = "README.md"
+keywords = ["log", "nginx", "apache", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+regex = "1"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
